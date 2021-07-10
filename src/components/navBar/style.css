@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+}
+
+.s-nav {
+    background-color: #232a33;
+    height: 94px;
+    color: rgb(114, 115, 116);
+}
+
+.s-nav>* {
+    text-align: center;
+}
+
+h1 {
+    padding-top: 8px;
+}
