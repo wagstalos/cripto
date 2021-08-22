@@ -1,5 +1,3 @@
-# manu
-
 
 <h1 align="center">WPS Cripto</h1>
 
