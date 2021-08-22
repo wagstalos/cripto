@@ -16,7 +16,7 @@
 <img src="https://img.shields.io/static/v1?label=Status&message=finalizado&color=55efc4&style=for-the-badge&logo="/>
 </h1>
 
-   <img src="https://github.com/wagstalos/manu/blob/master/img/mockupManu.png" alt="">
+   <img src="https://github.com/wagstalos/cripto/blob/master/src/cripto.png" alt="">
 
 
 
