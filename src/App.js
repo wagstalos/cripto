@@ -41,7 +41,6 @@ function App() {
       <div className="text-center mt-15">
         <ComponentSocial />
         {/* <a href="https://wpsgames.com.br/">wpsgames.com.br</a> */}
-        <script src="https://widgets.coingecko.com/coingecko-coin-list-widget.js"></script>
       </div>
 
       <div className="App">
