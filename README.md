@@ -30,13 +30,7 @@
 
 Para rodar você precisa usar
 
-#Sass
-
-#Swiper
-
-#bootstrap 5
-
-#jquery
+# yarn add axios
 
 
 As seguintes ferramentas foram usadas na construção do projeto:
