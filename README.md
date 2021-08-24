@@ -28,7 +28,9 @@
 
 Para rodar você precisa usar
 
-# yarn add axios
+# yarn install
+
+# yarn run start
 
 
 As seguintes ferramentas foram usadas na construção do projeto:
