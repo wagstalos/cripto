@@ -26,11 +26,11 @@
 - [x] JS
 - [x] BT5
 
-Para rodar você precisa usar
+#Para rodar você precisa usar
 
-# yarn install
+- yarn install
 
-# yarn run start
+- yarn run start
 
 
 As seguintes ferramentas foram usadas na construção do projeto:
