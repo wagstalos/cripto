@@ -3,6 +3,7 @@ import axios from "axios";
 import "./App.css";
 import ComponentNavBar from "./components/navBar";
 import ComponentSocial from "./components/social";
+import ComponentFooter from "./components/footer";
 import Coin from "./Coin";
 
 function App() {
@@ -37,8 +38,8 @@ function App() {
       <ComponentNavBar />
       <div className="text-center mt-15">
         <ComponentSocial />
-        <br />
-        <a href="https://wpsgames.com.br/">wpsgames.com.br</a>
+        {/* <br />
+        <a href="https://wpsgames.com.br/">wpsgames.com.br</a> */}
       </div>
 
       <div className="App">
@@ -84,6 +85,7 @@ function App() {
           })}
         </div>
       </div>
+      <ComponentFooter />
     </>
   );
 }

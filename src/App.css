@@ -81,9 +81,6 @@ a {
     border-radius: 24px;
     padding: 10px;
     margin: 10px;
-    /* height: 160px; */
-    /* -webkit-box-shadow: 5px 4px 12px 5px rgba(0, 0, 0, 0.15);
-  box-shadow: 5px 4px 12px 5px rgba(0, 0, 0, 0.15); */
 }
 
 .color-dark {
@@ -111,4 +108,9 @@ a {
     margin-bottom: 0;
     padding: 2px;
     background-color: #0e1117;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
 }
