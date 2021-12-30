@@ -12,6 +12,10 @@
     text-align: center;
 }
 
-h1 {
-    padding-top: 8px;
+.icons {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 5px;
+    top: 5px;
 }

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "./App.css";
 import ComponentNavBar from "./components/navBar";
-import ComponentSocial from "./components/social";
+// import ComponentSocial from "./components/social";
 import ComponentFooter from "./components/footer";
 import Coin from "./Coin";
 
@@ -36,11 +36,6 @@ function App() {
   return (
     <>
       <ComponentNavBar />
-      <div className="text-center mt-15">
-        <ComponentSocial />
-        {/* <br />
-        <a href="https://wpsgames.com.br/">wpsgames.com.br</a> */}
-      </div>
 
       <div className="App">
         <form>

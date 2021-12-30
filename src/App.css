@@ -13,6 +13,10 @@ h1, h2, h3, h4, h5, h6, p {
     color: rgb(223, 237, 250);
 }
 
+h1 {
+    padding-top: 8px;
+}
+
 p {
     font-weight: 700;
 }
