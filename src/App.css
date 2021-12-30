@@ -1,113 +1,114 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Padauk&display=swap');
+
 body, html {
-  background-color: #232a33;
-  font-family: 'Inter', sans-serif;
+    background-color: #232a33;
+    font-family: 'Inter', sans-serif;
 }
 
 * {
-  margin: 0;
+    margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6, p {
-  color: rgb(223, 237, 250);
+    color: rgb(223, 237, 250);
 }
 
 p {
-  font-weight: 700;
+    font-weight: 700;
 }
 
 a {
-  color: #0edf6c;
-  text-decoration: none;
+    color: #0edf6c;
+    text-decoration: none;
 }
 
 .text-center {
-  text-align: center;
+    text-align: center;
 }
 
 .mt-15 {
-  margin-top: 15px;
+    margin-top: 15px;
 }
 
 .App {
-  text-align: center;
-  max-width: 1000px;
-  margin: 10px auto 0;
+    text-align: center;
+    max-width: 1000px;
+    margin: 10px auto 0;
 }
 
 .icon-search {
-  position: absolute;
-  margin-top: 21px;
-  margin-left: 14px;
+    position: absolute;
+    margin-top: 21px;
+    margin-left: 14px;
 }
 
 .flex-container {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 .flex-wrap {
-  flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 .coin img {
-  width: 50px;
-  height: 50px;
-  border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
 }
 
 .coin h1 {
-  font-size: 16px;
-  width: 120px;
+    font-size: 16px;
+    width: 120px;
 }
 
 .coin-input {
-  padding-left: 18px;
-  max-width: 100%;
-  height: 50px;
-  font-size: 16px;
-  border-radius: 25px;
-  font-weight: 700;
-  border: none;
-  background-color: #1a212a;
-  color: #fff;
-  margin: 10px 0 25px 0;
-  padding-left: 55px;
+    padding-left: 18px;
+    max-width: 100%;
+    height: 50px;
+    font-size: 16px;
+    border-radius: 25px;
+    font-weight: 700;
+    border: none;
+    background-color: #1a212a;
+    color: #fff;
+    margin: 10px 0 25px 0;
+    padding-left: 55px;
 }
 
 .coin-row {
-  background-color: #1a212a;
-  border-radius: 24px;
-  padding: 10px;
-  margin: 10px;
-  /* height: 160px; */
-  /* -webkit-box-shadow: 5px 4px 12px 5px rgba(0, 0, 0, 0.15);
+    background-color: #1a212a;
+    border-radius: 24px;
+    padding: 10px;
+    margin: 10px;
+    /* height: 160px; */
+    /* -webkit-box-shadow: 5px 4px 12px 5px rgba(0, 0, 0, 0.15);
   box-shadow: 5px 4px 12px 5px rgba(0, 0, 0, 0.15); */
 }
 
 .color-dark {
-  color: #293241;
+    color: #293241;
 }
 
 .green {
-  background-color: #000;
-  color: #0edf6c;
-  text-shadow: #000 0.3px 0.1px 0.5px;
-  border-radius: 24px;
+    background-color: #000;
+    color: #0edf6c;
+    text-shadow: #000 0.3px 0.1px 0.5px;
+    border-radius: 24px;
 }
 
 .red {
-  color: #ff0076;
-  text-shadow: #000 0.3px 0.1px 0.5px;
-  border-radius: 24px;
+    color: #ff0076;
+    text-shadow: #000 0.3px 0.1px 0.5px;
+    border-radius: 24px;
 }
 
 .coin-price {
-  margin: 10px 0 10px 0;
+    margin: 10px 0 10px 0;
 }
 
 .coin-percent {
-  margin-bottom: 0;
-  padding: 2px;
-  background-color: #0e1117;
+    margin-bottom: 0;
+    padding: 2px;
+    background-color: #0e1117;
 }

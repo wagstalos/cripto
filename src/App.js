@@ -26,13 +26,10 @@ function App() {
   };
 
   //filter name
-  const filteredCoins = coins.filter((coin) =>
-    coin.name.toLowerCase().includes(search.toLowerCase())
-  );
-
-  //filter symbol
-  const filteredCoinsSymbol = coins.filter((symbol) =>
-    symbol.symbol.toLowerCase().includes(search.toLowerCase())
+  const filteredCoins = coins.filter(
+    (coin) =>
+      coin.name.toLowerCase().includes(search.toLowerCase()) ||
+      coin.symbol.toLowerCase().includes(search.toLowerCase())
   );
 
   return (
@@ -40,7 +37,8 @@ function App() {
       <ComponentNavBar />
       <div className="text-center mt-15">
         <ComponentSocial />
-        {/* <a href="https://wpsgames.com.br/">wpsgames.com.br</a> */}
+        <br />
+        <a href="https://wpsgames.com.br/">wpsgames.com.br</a>
       </div>
 
       <div className="App">
@@ -71,20 +69,6 @@ function App() {
 
         <div className="flex-container flex-wrap">
           {filteredCoins.map((coin) => {
-            return (
-              <Coin
-                key={coin.id}
-                name={coin.name}
-                price={coin.current_price}
-                symbol={coin.symbol}
-                marketcap={coin.total_volume}
-                volume={coin.market_cap}
-                image={coin.image}
-                priceChange={coin.price_change_percentage_24h}
-              />
-            );
-          })}
-          {filteredCoinsSymbol.map((coin) => {
             return (
               <Coin
                 key={coin.id}
